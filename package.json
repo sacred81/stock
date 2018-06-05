@@ -1,0 +1,24 @@
+{
+  "name": "stock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sacred81/stock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sacred81/stock/issues"
+  },
+  "homepage": "https://github.com/sacred81/stock#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "iconv-lite": "^0.4.23"
+  }
+}
