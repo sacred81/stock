@@ -131,6 +131,7 @@ function refineStr(str)
 {
     str = str.replace("!", "");
     str = str.replace("min", "");
+    str = str.replace("max", "");
     var splitted = str.split(" ");
     splitted = splitted.filter((val) => val.trim() != "");
     splitted.sort();
